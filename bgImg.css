@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-image: url("https://media.istockphoto.com/id/139497126/photo/lighthouse.jpg?s=2048x2048&w=is&k=20&c=cQ0pmzPJTkSatJVW5K3zkHNLrADwzAa2X5_fwukNPM4=");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

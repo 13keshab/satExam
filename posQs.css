@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+.bg-con {
+  background-color: aliceblue;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.con-container {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.row {
+  display: flex;
+  margin: 40px;
+}
+.f {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: yellow;
+  margin: 10px;
+  border: 2px solid rgb(241, 241, 153);
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 190px;
+  width: 300px;
+  padding: 10px;
+}
+.s {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(164, 230, 148);
+  margin: 10px;
+  border: 2px solid rgb(60, 221, 39);
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+}
+.t {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(152, 160, 226);
+  margin: 10px;
+  border: 2px solid rgb(109, 100, 230);
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 190px;
+  width: 300px;
+  padding: 10px;
+}
+.fr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(55, 72, 226);
+  margin: 10px;
+  border: 2px solid rgb(25, 19, 117);
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 190px;
+  width: 300px;
+  padding: 10px;
+}
+.crcl {
+  background-color: rgb(228, 179, 90);
+  border: 2px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 250px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+}
